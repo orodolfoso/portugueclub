@@ -13,6 +13,11 @@ body {
 
 #nav-logo {
     cursor: pointer;
+    
+}
+
+#nav-logo:hover {
+    transform: scale(1.2);
 }
 
 .btn-default {

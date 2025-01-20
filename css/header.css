@@ -47,3 +47,22 @@ header {
 #mobile_menu {
     display: none;
 }
+
+@media screen and (max-width: 1170px) {
+    #nav-list, #navbar .btn-default {
+        display: none;
+    }
+    #mobile-btn {
+        display: block;
+    }
+
+    #nav-logo {
+        width: 150px;
+    }
+
+    #nav-logo:hover {
+        transform: scale(1.2);
+    }
+
+    
+}
