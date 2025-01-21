@@ -54,6 +54,10 @@ header {
     }
     #mobile-btn {
         display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
     }
 
     #nav-logo {
@@ -64,5 +68,23 @@ header {
         transform: scale(1.2);
     }
 
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+    }
     
 }
