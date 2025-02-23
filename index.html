@@ -4,43 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portugueclub</title>
+    <title>PortugueClub</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,400;0,500;1,100&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!-- FONTAWESOME ICONS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- Javascript -->
     <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
- 
-<header class="header-container">
-    <img src="imagens/logo-sem-fundo.png" alt="Logo Portugueclub">
 
-    <nav class="nav-content">
-      <ul class="nav-list">
-            <li><a href="#home" id="home">Início</a></li>
-            <li><a href="#Sobre" id="sobre">Sobre</a></li>
-            <li><a href="#blog" id="blog">Blog</a></li>
-            <li><a href="#contato" id="contato">Contato</a></li>
-        </ul>
-    </nav>
+    <div class="wrapperContainer-light">
+        <header class="header container">
+            <img src="imagens/logo-sem-fundo.png" alt="Logo PortugueClub">
 
-    <div class="socials">
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-blogger"></i>
-        <i class="fa-brands fa-square-whatsapp"></i>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-blogger-b"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+
+        </header>
     </div>
-</header>
 
+    <div class="wrapperContainer-hero">
+        <section class="container heroBanner">
+            <h1>Conheça as curiosidades e diferenças da língua Portuguesa</h1>
+            <a class="btn" href="#">Saiba mais</a>
+            <img src="imagens/lingua-portuguesa-roxo.jpg" alt="Dia da língua Portuguesa">
+        </section>
+    </div>
+
+    <div class="wrapperContainer-light">
+        <section id="blog" class="card-portugues container">
+            <h2>A importância da Língua Portuguesa</h2>
+            <div class="cardContainer">
+                <article class="card_content">
+                    <img src="imagens/speak.png" alt="Mão escrevendo">
+                    <div class="card_info">
+                        <h3>A pronuncia</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis nostrum rem rerum
+                            quidem
+                            sequi alias, necessitatibus architecto adipisci eligendi?</p>
+                    </div>
+                </article>
+
+                <article class="card_content">
+                    <img src="imagens/write.png" alt="Mão escrevendo">
+                    <div class="card_info">
+                        <h3>Vamos escrever?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis nostrum rem rerum
+                            quidem
+                            sequi alias, necessitatibus architecto adipisci eligendi?</p>
+                    </div>
+                </article>
+
+                <article class="card_content">
+                    <img src="imagens/book.png" alt="Pagina de um livro">
+                    <div class="card_info">
+                        <h3>Poque é importante ler?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure debitis nostrum rem rerum
+                            quidem
+                            sequi alias, necessitatibus architecto adipisci eligendi?</p>
+                    </div>
+                </article>
+            </div>
+
+            <a class="btn" href="#">Saiba mais</a>
+        </section>
+    </div>
+    <div class="container-purple">
+        <section class="container" id="sobre">
+            <img src="imagens/Deborah-2.png" alt="Deborah">
+            <h2>Quem sou eu?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consectetur beatae odit temporibus
+                mollitia natus reprehenderit vitae. Nam ut aliquam quae quos natus cum dignissimos recusandae hic, vel
+                quod eveniet laborum, reiciendis molestias, voluptatem quibusdam ab fugit. Atque perspiciatis ducimus
+                iste accusantium? Sequi, autem non dicta voluptatem architecto reiciendis inventore?</p>
+        </section>
+    </div>
+
+    <div class="wrapperContainer-light">
+
+        <section class="container" id="contato">
+            <h2>Vamos conversar?</h2>
+            <label>Nome</label>
+            <input type="text" placeholder="Seu nome">
+            <label>Email</label>
+            <input type="email" placeholder="Seu Email">
+            <label>Sua mensagem</label>
+            <textarea name="text" id="text"></textarea>
+        </section>
+    </div>
+
+    <footer class="container">
+        <p>&copy; PortugueClub - Todos os direitos reservados 2025</p>
+    </footer>
 </body>
 
 </html>
