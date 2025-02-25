@@ -15,6 +15,10 @@ a {
     font-size: 1.6rem;
 }
 
+.title1 {
+    font-size: 4.8rem;
+}
+
 nav a {
     color: inherit;
     font-size: 3.5rem;
@@ -22,9 +26,9 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: #fafafa;
-}
+} */
 
 
 
@@ -63,7 +67,7 @@ nav a:hover {
 
 .header_nav, ul {
     display: flex;
-    gap: 5rem;
+    gap: .6rem;
     list-style: none;
     
 
@@ -71,7 +75,25 @@ nav a:hover {
 
 .header_nav a {
     padding: 0.75em 1.15em;
-    border: solid 1px;
+    border: solid 4px #000;
+    border-radius: 15px;
+}
+
+.header_nav a:hover {
+    background-color: #46D942;
+    color: #fff;
+}
+
+.wrapperContainer-hero {
+    background-color: #650199;
+}
+
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
 }
 
 
