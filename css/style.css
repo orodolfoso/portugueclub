@@ -17,6 +17,21 @@ a {
 
 .title1 {
     font-size: 4.8rem;
+    color: #46D942;
+    text-shadow: 1px 2px 3px #000;
+    padding-bottom: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    color: #000;
+    text-shadow: 1px 2px 3px #12d41f;
+}
+
+h3 {
+    font-size: 3.2rem;
+    color: #000;
+    text-shadow: 1px 2px 3px #12d41f;
 }
 
 nav a {
@@ -26,9 +41,35 @@ nav a {
     font-weight: bold;
 }
 
-/* nav a:hover {
-    color: #fafafa;
-} */
+.btn {
+    background-color: #46D942;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #6027da;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid #ffff;
+    color: var(--second-color);
+    
+}
+
+
+
+.wrapperContainer {
+    padding-top: 1px;
+}
+
+.section_title {
+    padding: 3.5rem 0;
+    text-align: center;
+}
 
 
 
@@ -39,9 +80,13 @@ nav a {
 
 .wrapperContainer-light {
     background-color: #fafafa;
+    
 }
 
+
+
 .wrapperContainer-dark2 {
+    margin: 3.5rem 0;
     background-color: var(--primary-color);
     color: #fafafa;
 }
@@ -86,7 +131,7 @@ nav a {
 
 .wrapperContainer-hero {
     background-color: #650199;
-}
+}   
 
 
 .heroBanner {
@@ -94,6 +139,43 @@ nav a {
     justify-content: space-between;
     align-items: center;
     padding: 4rem;
+}
+
+.card-portugues {
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.card_content {
+    border: 1px solid #9d9999;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+
+}
+
+.card_content img {
+    display: block;
+    width: 100%;
+}
+
+.card_content h3 {
+    font-size: 2.4rem;
+}
+
+.card_content p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.card_info {
+    padding: 1rem 1.25rem;
+    
 }
 
 
