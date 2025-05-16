@@ -215,6 +215,8 @@ span {
   background-color: #6a33e29d;
   padding: 2rem;
   margin-top: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card {
@@ -249,6 +251,88 @@ span {
   font-weight: bold;
   text-decoration: none;
   color: #000;
+}
+
+/* Footer */
+
+.container-footer {
+  background-color: #6d39df;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-logo-footer {
+  width: 230px;
+}
+
+.talk {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.talk h3 {
+  text-align: center;
+  color: #ffffffca;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 1.5rem;
+}
+
+.talk input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.talk textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.icons i {
+  background-color: #46d942;
+  padding: 1rem;
+  border-radius: 30px;
+  color: #ffffffca;
+}
+
+.icons i:hover {
+  background-color: #8351f2;
+  color: #000000bd;
+  transform: scale(1.05s);
+  transition: 0.5s;
+}
+
+.socials h3 {
+  margin: 1rem;
+  color: #ffffffca;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 1.5rem;
+}
+
+.footer-text {
+  text-align: center;
+  color: #ffffffca;
+  padding: 0.5rem;
 }
 
 /* Responsive Header */
@@ -377,7 +461,7 @@ span {
   }
 
   .card-img h3 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
   }
 
@@ -461,5 +545,27 @@ span {
   }
   .image-content {
     width: 200px;
+  }
+}
+
+/* Rsponsive footer */
+
+@media screen and (max-width: 797px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .socials h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .talk h3 {
+    font-size: 1.2rem;
+    text-align: center;
   }
 }
