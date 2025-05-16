@@ -161,6 +161,52 @@ span {
   width: 550px;
 }
 
+/* Section about */
+
+.section-about {
+  background-color: #ffffffca;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.about-card {
+  background-color: #cddc39;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.img-about {
+  position: relative;
+  border-radius: 30px;
+}
+
+.card-img h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.about-text h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  margin: 3rem;
+}
+
 /* Responsive Header */
 
 @media screen and (max-width: 693px) {
@@ -172,5 +218,52 @@ span {
 @media screen and (max-width: 320px) {
   header {
     padding: 0;
+  }
+}
+
+/* Responsive Main */
+
+@media screen and (max-width: 1143px) {
+  .h1-content {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  .h1-content {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .h1-content {
+    font-size: 2.5rem;
+  }
+
+  .letters {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  main {
+    min-height: 550px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .text-home {
+    text-align: center;
+  }
+
+  .h1-content {
+    font-size: 2.5rem;
+  }
+
+  .letters {
+    width: 300px;
   }
 }
