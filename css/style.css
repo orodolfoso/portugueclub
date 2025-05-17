@@ -256,7 +256,6 @@ span {
 /* Footer */
 
 .container-footer {
-  overflow-x: hidden;
   background-color: #6d39df;
   margin-top: 2rem;
   padding: 2rem;
@@ -321,6 +320,7 @@ span {
   color: #000000bd;
   transform: scale(1.05s);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .socials h3 {
