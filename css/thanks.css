@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Coiny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@200;400;500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Tela saudação */
+
+body {
+  background-color: #a287dc;
+}
+
+main {
+  margin: 5rem auto;
+  width: 700px;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #6a33e2, #7344da);
+  box-shadow: 1px 1px 7px #0cff03;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.photo img {
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.profession {
+  font-size: 1.2rem;
+  color: #ffffffca;
+  text-shadow: 1px 1px 2px #000;
+  margin: 1rem;
+}
+
+.greeting {
+  text-align: center;
+  color: #ffffffca;
+  text-shadow: 1px 1px 2px #000;
+}
