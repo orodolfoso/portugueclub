@@ -256,6 +256,7 @@ span {
 /* Footer */
 
 .container-footer {
+  overflow-x: hidden;
   background-color: #6d39df;
   margin-top: 2rem;
   padding: 2rem;
@@ -420,7 +421,7 @@ span {
   }
 
   .img-about {
-    width: 400px;
+    width: 380px;
     position: relative;
     left: 8px;
   }
